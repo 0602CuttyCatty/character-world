@@ -37,6 +37,8 @@ model Character {
   color     String
   rarity    String   @default("common")
   imageUrl  String?
+  enhLv     Int      @default(0)
+  attack    Int      @default(10)
   createdAt DateTime @default(now())
 }
 

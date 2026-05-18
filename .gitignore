@@ -1,0 +1,15 @@
+# env
+.env
+.env.local
+.env*.local
+
+# Next.js
+.next/
+out/
+
+# node_modules
+node_modules/
+
+# 빌드
+build/
+dist/

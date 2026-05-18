@@ -159,28 +159,30 @@ export default function Page() {
 
   const CHAR_COLOR = "#A29BFE";
 
+  const BASE = "https://xokaiaoyadjatxuxxehv.supabase.co/storage/v1/object/public/carrotreal";
+
   const LEVEL_IMAGES: (string | null)[] = [
-    "/enhance/lv0.png",
-    "/enhance/lv1.png",
-    "/enhance/lv2.png",
-    "/enhance/lv3.png",
-    "/enhance/lv4.png",
-    "/enhance/lv5.png",
-    "/enhance/lv6.png",
-    "/enhance/lv7.png",
-    "/enhance/lv8.png",
-    "/enhance/lv9.png",
-    "/enhance/lv10.png",
-    "/enhance/lv11.png",
-    "/enhance/lv12.png",
-    "/enhance/lv13.png",
-    "/enhance/lv14.png",
-    "/enhance/lv15.png",
-    "/enhance/lv16.png",
-    "/enhance/lv17.png",
-    "/enhance/lv18.png",
-    "/enhance/lv19.png",
-    "/enhance/lv20.png",
+    `${BASE}/carrot0.png`,
+    `${BASE}/carrot1.png`,
+    `${BASE}/carrot2.png`,
+    `${BASE}/carrot3.png`,
+    `${BASE}/carrot4.png`,
+    `${BASE}/carrot5.png`,
+    `${BASE}/carrot6.png`,
+    `${BASE}/carrot7.png`,
+    `${BASE}/carrot8.png`,
+    `${BASE}/carrot9.png`,
+    `${BASE}/carrot10.png`,
+    `${BASE}/carrot11.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot12.png`,
+    `${BASE}/carrot20.png`,
   ];
 
   const curImage   = LEVEL_IMAGES[enhLv] ?? null;
